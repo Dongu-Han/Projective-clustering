@@ -1,6 +1,6 @@
 # Bayesian Projection Clustering
 This repository contains supporting code and data for the following manuscript:
-&nbsp;&nbsp; Mao, Y., Nott, D.J., Kim, M., Han, D., and Choi, T. (2024) "Bayesian clustering using random effects models and predictive projections."
+&nbsp;&nbsp; Mao, Y., Nott, D.J., Kim, M., Han, D., and Choi, T. (2024) "Bayesian clustering using mixed effects models and predictive projections."
 ### Authors
 Yinan Mao, National University of Singapore (maoyinan.jscz@gmail.com)<br/>
 David. J. Nott, National University of Singapore (standj@nus.edu.sg)<br/>

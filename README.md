@@ -57,7 +57,10 @@ We analyze two datasets in the paper: crop image data (Section 4.2) and DNA data
   <img src="eg2_crop/plotSeriesEg2.png" width="70%">
 </p>
 
-### Results
+### Crop image data
+- The data can be downloaded from the UCR Time Series Classification Archive.
+- Each observation represents a time series associated with a pixel from a satellite image, where the images at different times are corrected so that a given pixel corresponds to the same spatial region in all images.
+
 #### Results
 
 <p align="center">
@@ -71,7 +74,7 @@ We analyze two datasets in the paper: crop image data (Section 4.2) and DNA data
 </p>
 
 
-@@ -89,15 +89,15 @@ We analyze two datasets in the paper: crop image data (Section 4.2) and DNA data
+We analyze two datasets in the paper: crop image data (Section 4.2) and DNA data
 - In the gene expression data (DNA data), each time series gives gene expression level over time relative to a control sample in yeast cells of 5 stages. Each series contains 18 records measured 7 minutes apart.
 
 <p align="center">
@@ -79,7 +82,7 @@ We analyze two datasets in the paper: crop image data (Section 4.2) and DNA data
   <img src="eg3_yeast/plotSeriesEg3.png" width="70%">
 </p>
 
-### Results
+### DNA data
 #### Results
 
 <p align="center">

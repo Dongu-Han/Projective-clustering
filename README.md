@@ -47,8 +47,10 @@ We fit temporal trends in the data using Fourier cosine bases, incorporating a r
 </p>
 
 ## Application to real datasets
-@@ -70,17 +70,17 @@ We analyze two datasets in the paper: crop image data (Section 4.2) and DNA data
+We analyze two datasets in the paper: crop image data (Section 4.2) and DNA data
 - Each observation represents a time series associated with a pixel from a satellite image, where the images at different times are corrected so that a given pixel corresponds to the same spatial region in all images.
+- For each clustering, the number of clusters is chosen based on clustering stability estimated by nonparametric bootstrap.
+- We consider 5 classes, each containing 30 observed series, totaling 150 time series from 5 distinct classes.
 
 <p align="center">
   <img src="eg2_crop/plotSeriesEg2.png" width="65%">

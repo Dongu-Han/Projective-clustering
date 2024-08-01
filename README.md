@@ -19,7 +19,7 @@ We generate a synthetic longitudinal data as described in Section 4.1 of the pap
 y_{it} = \beta^{(1)}_{\delta_i} \cos(\pi w^{(1)}_i t) +  \beta^{(2)}_{\delta_i} \cos(\pi w^{(2)}_i t) + \epsilon_{it},
 ```
 for $i = 1, 2, \ldots, 120$ and $t = 1/40, 2/40, \ldots, 39/40, 1$.
-- $`w^{(1)}_i \sim \text{Unif}(\{1,2,3\})`$, $`w^{(2)}_i \sim \text{Unif}(\{7,8,9\})`$, and $`\epsilon_{it}\sim N(0,0.1)`$.
+- $`w^{(1)}_i \sim \text{Unif}(\{1,2,3\})`$, $`w^{(2)}_i \sim \text{Unif}(\{7,8,9\})`$, and $`\epsilon_{it}\sim N(0,0.1^2)`$.
 - Assign $`\delta_i=g`$ if subject $`i`$ belongs to group $`g\in \{1,2,3,4\}`$. The groups are defined as follows:
 ```math
 (\beta^{(1)}_g, \beta^{(2)}_g) = 

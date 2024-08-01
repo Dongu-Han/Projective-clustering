@@ -34,7 +34,6 @@ For each individual, one basis function is a 'low frequency' term and one basis 
 
 <p align="center">
   <img src="eg1_synthetic/plotSeriesEg1.png" width="65%">
-  <img src="eg1_synthetic/plotSeriesEg1.png" width="70%">
 </p>
 
 We fit temporal trends in the data using Fourier cosine bases, incorporating a random effect for each basis function. Next, we apply our clustering method with four different choices of random effects corresponding to the following frequency ranges: (1) all frequencies, (2) low frequencies, (3) intermediate frequencies, and (4) high frequencies.
@@ -54,7 +53,6 @@ We analyze two datasets in the paper: crop image data (Section 4.2) and DNA data
 
 <p align="center">
   <img src="eg2_crop/plotSeriesEg2.png" width="65%">
-  <img src="eg2_crop/plotSeriesEg2.png" width="70%">
 </p>
 
 ### Crop image data
